@@ -65,5 +65,3 @@ data/
 Model classes can also be imported directly, for example `from feel.models.eeg.eegnet import EEGNet`.
 
 The earlier fNIRS scripts use `python -m feel.experiments.legacy_fnirs.train_<model>` with `--fnirs-dir` and `--labels`. The EEG experiments are `feel.experiments.train_eeg_json` for JSON epochs with per-trial `label.txt` files and `feel.experiments.train_eeg_imagery` for direction-specific NPY files named `<subject-id>_imagery_<direction>_data.npy`. Run either module with `--help` for its input arguments.
-
-Recordings, participant labels, trained weights, and outputs are kept outside of version control. Source references in the model implementations are retained.
