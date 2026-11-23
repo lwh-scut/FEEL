@@ -1,6 +1,6 @@
 # FEEL
 
-FEEL is a PyTorch model library for music emotion recognition from EEG, functional near-infrared spectroscopy (fNIRS), and paired EEG–fNIRS recordings. The training scripts classify valence, arousal, and dominance as separate binary tasks.
+FEEL (fNIRS–EEG Emotion Library) is an open-source PyTorch library and benchmark built on LibEER. It supports training, evaluating, and comparing models for music emotion recognition from EEG, functional near-infrared spectroscopy (fNIRS), and paired EEG–fNIRS recordings. The training scripts classify valence, arousal, and dominance as separate binary tasks.
 
 ## Installation
 
