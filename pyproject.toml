@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feel"
+version = "0.1.0"
+description = "EEG and fNIRS models for music emotion recognition"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "braindecode==0.7",
+    "einops",
+    "matplotlib",
+    "numpy",
+    "openpyxl",
+    "pandas",
+    "PyYAML",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "skorch<1",
+    "torch>=2",
+    "torchaudio>=2",
+    "torch-geometric",
+    "torchinfo",
+    "tqdm",
+]
+
+[tool.setuptools.packages.find]
+include = ["feel", "feel.*"]
